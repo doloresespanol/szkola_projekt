@@ -1,10 +1,14 @@
 public abstract class Osoba {
-    private String imie;
+    protected String imie;
     private int wiek;
 
     public Osoba(String imie, int wiek) {
         this.imie = imie;
         this.wiek = wiek;
+    }
+
+    public Osoba() {
+
     }
 
     public void setImie(String imie) {
