@@ -16,6 +16,6 @@ public class Uczen extends Osoba {
 
     @Override
     public String toString() {
-        return "Uczen{" +getImie()+" wiek: "+getWiek()+" nrUcznia="+nrUcznia+"}";
+        return "Uczeen{" +getImie()+" wiek: "+getWiek()+" nrUcznia="+nrUcznia+"}";
     }
 }
