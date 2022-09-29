@@ -1,4 +1,4 @@
-public class Uczen extends Osoba {
+public class Uczen extends Osoba implements Dyzurny {
     private int nrUcznia;
     public static int LiczbaUczniow;
 
@@ -16,6 +16,11 @@ public class Uczen extends Osoba {
 
     @Override
     public String toString() {
-        return "Uczeen{" +getImie()+" wiek: "+getWiek()+" nrUcznia="+nrUcznia+"}";
+        return "Uczen{" +getImie()+" wiek: "+getWiek()+" nrUcznia="+nrUcznia+"}";
+    }
+
+    @Override
+    public void wykonajDyzur() {
+        System.out.println("Czysta tablica");
     }
 }
